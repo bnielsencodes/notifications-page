@@ -1,7 +1,7 @@
-export default function MarkRead() {
+export default function MarkRead(props) {
   return (
-    <div className="MarkRead">
-      <p>Mark all as read</p>
+    <div className="mark-read">
+      <button onClick={props.handleClick}>Mark all as read</button>
     </div>
   );
 }
