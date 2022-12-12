@@ -1,12 +1,15 @@
+import React from "react";
+import data from "./data";
 import Header from "./components/Header";
 import NotificationList from "./components/NotificationList";
+import Notification from "./components/Notification";
 import "./App.css";
 
 export default function App() {
   return (
     <div className="App">
-      <Header />
-      <NotificationList />
+      <Header handleClick={markAllRead} />
+      <NotificationList notifications={notifications} />
     </div>
   );
 }
