@@ -13,15 +13,8 @@ export default function App() {
   };
 
   // map through data.js to create Notification components
-  const notifications = data.map((item) => {
-    return (
-      <Notification
-        key={item.id}
-        item={item}
-        readValue={item.read}
-        badgestyles={badgeStyles}
-      />
-    );
+  const notifications = notification.map((item) => {
+    return <Notification key={item.id} item={item} />;
   });
 
   return (
