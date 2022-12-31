@@ -14,8 +14,12 @@ export default function Notification(props) {
   };
 
   return (
-    <div className="notification">
+    <div
+      className="notification"
+      style={{ backgroundColor: props.item.read ? "transparent" : "#f7fafd" }}
+    >
       <img
+        className="avatar"
         src={require(`../assets/images/${props.item.img}`)}
         alt="user avatar"
       />
