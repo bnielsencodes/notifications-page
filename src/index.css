@@ -3,12 +3,28 @@
 body {
   margin: 0;
 body {
+  background-color: var(--snow-color);
   font-family: "Plus Jakarta Sans", sans-serif;
   font-size: 14px;
   font-weight: 500;
   line-height: 17.64px;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  --blue-color: #0a327b;
+  --red-color: #f65552;
+  --very-dark-grey-blue-color: #1c202b;
+  --dark-grey-blue-color: #5e6778;
+  --grey-blue-color: #939cad;
+  --light-grey-blue-color: #e5effa;
+  --very-light-grey-blue-color: #dde7ee;
+  --snow-color: #f7fafd;
+  --white-color: #fff;
+}
+
+#root {
+  background-color: var(--white-color);
+}
+
 }
 
 input,
@@ -18,23 +34,48 @@ select {
   font: inherit;
 }
 
+button {
+  background-color: transparent;
+}
 .notification-count h1 {
   font-size: 20px;
   line-height: 25.2px;
 }
 
 .notification-count div {
+  background-color: var(--blue-color);
+  color: var(--white-color);
   font-size: 16px;
   font-weight: 800;
   line-height: 20.16px;
 }
+
+.notification-count h1,
+.name {
+  color: var(--very-dark-grey-blue-color);
+}
+
+.mark-read button,
+.action,
+.secondary-link {
+  color: var(--dark-grey-blue-color);
+}
+
 .notification-count h1,
 .name {
   font-weight: 800;
 }
 
+.unread {
+  background-color: var(--snow-color);
+}
+
 .link {
   font-weight: 700;
+}
+
+.primary-link {
+  color: var(--blue-color);
 }
 
 .badge {
@@ -42,6 +83,10 @@ select {
   height: 8px;
   border-radius: 50%;
   margin-bottom: 1px;
+}
+
+.time {
+  color: var(--grey-blue-color);
 }
 
 .message {
