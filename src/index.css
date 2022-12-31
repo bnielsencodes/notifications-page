@@ -1,7 +1,16 @@
 @import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;700;800&display=swap");
 
-body {
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  padding: 0;
   margin: 0;
+}
+
 body {
   background-color: var(--snow-color);
   font-family: "Plus Jakarta Sans", sans-serif;
@@ -22,9 +31,18 @@ body {
 }
 
 #root {
+  padding: 0 16px 30px;
   background-color: var(--white-color);
 }
 
+.avatar,
+picture,
+svg {
+  display: block;
+}
+
+.avatar {
+  margin-right: 13px;
 }
 
 input,
@@ -37,12 +55,29 @@ select {
 button {
   background-color: transparent;
 }
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.notification-count {
+  display: flex;
+  align-items: center;
+  margin: 24px 0;
+}
+
 .notification-count h1 {
   font-size: 20px;
   line-height: 25.2px;
 }
 
 .notification-count div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 10px;
   background-color: var(--blue-color);
   color: var(--white-color);
   font-size: 16px;
@@ -66,6 +101,17 @@ button {
   font-weight: 800;
 }
 
+.action {
+  margin: 0 6px;
+}
+
+.notification {
+  display: flex;
+  align-items: flex-start;
+  padding: 16px 26px 16px 16px;
+  margin-bottom: 10px;
+}
+
 .unread {
   background-color: var(--snow-color);
 }
@@ -86,6 +132,7 @@ button {
 }
 
 .time {
+  margin-top: 3px;
   color: var(--grey-blue-color);
 }
 
