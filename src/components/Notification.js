@@ -9,6 +9,10 @@ export default function Notification(props) {
     display: props.item.id !== 4 ? "none" : "block",
   };
 
+  const postImgStyles = {
+    display: props.item.id !== 5 ? "none" : "block",
+  };
+
   return (
     <div className="notification">
       <img
@@ -34,6 +38,12 @@ export default function Notification(props) {
           {props.item.message}
         </div>
       </div>
+      <img
+        className="postImg"
+        src={require(`../assets/images/${props.item.postImg}`)}
+        alt="referred to"
+        style={postImgStyles}
+      />
     </div>
   );
 }

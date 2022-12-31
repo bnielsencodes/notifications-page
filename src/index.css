@@ -20,8 +20,20 @@ body {
   color: var(--dark-grey-blue-color);
 }
 
+.postImg {
+  display: block;
+  width: 39px;
+  height: 39px;
+  margin-left: auto;
+}
+
   .message {
     padding: 17px 18px 18px 19px;
+  }
+
+  .postImg {
+    width: 45px;
+    height: 45px;
   }
 
 }
