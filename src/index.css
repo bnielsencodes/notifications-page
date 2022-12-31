@@ -12,6 +12,7 @@
 }
 
 body {
+  min-height: 100vh;
   background-color: var(--snow-color);
   font-family: "Plus Jakarta Sans", sans-serif;
   font-size: 14px;
@@ -31,6 +32,7 @@ body {
 }
 
 #root {
+  max-width: 730px;
   padding: 0 16px 30px;
   background-color: var(--white-color);
 }
@@ -39,9 +41,12 @@ body {
 picture,
 svg {
   display: block;
+  max-width: 100%;
 }
 
 .avatar {
+  width: 39px;
+  height: 39px;
   margin-right: 13px;
 }
 
@@ -77,6 +82,8 @@ button {
   display: flex;
   justify-content: center;
   align-items: center;
+  width: 32px;
+  height: 25px;
   margin-left: 10px;
   background-color: var(--blue-color);
   color: var(--white-color);
