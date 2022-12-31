@@ -1,4 +1,9 @@
 export default function Notification(props) {
+  const badgeStyles = {
+    display: props.item.read ? "none" : "inline-block",
+    backgroundColor: props.item.read ? "transparent" : "#f65552",
+    marginLeft: props.item.id !== 2 ? "6px" : "0px",
+  };
   return (
     <div className="notification">
       <img
@@ -13,7 +18,7 @@ export default function Notification(props) {
           <span className="link secondary-link">
             {props.item.secondaryLink}
           </span>
-          <span className="badge" style={props.badgestyles}></span>
+          <span className="badge" style={badgeStyles}></span>
         </div>
         <p className="time">{props.item.time}</p>
         <div id={props.item.messageId} className="message">

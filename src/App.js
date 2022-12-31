@@ -7,10 +7,6 @@ import Notification from "./components/Notification";
 export default function App() {
   const [notification, setNotification] = useState(data);
 
-  const badgeStyles = {
-    display: read ? "none" : "inline-block",
-    backgroundColor: read ? "transparent" : "#f65552",
-  };
   const unreadCount = notification.filter(
     (notification) => notification.read === false
   ).length;
