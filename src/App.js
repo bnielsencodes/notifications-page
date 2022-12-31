@@ -19,7 +19,7 @@ export default function App() {
 
   return (
     <div className="App">
-      <Header handleClick={markAllRead} />
+      <Header unreadCount={unreadCount} markAllRead={markAllRead} />
       <NotificationList notifications={notifications} />
     </div>
   );

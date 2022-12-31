@@ -4,8 +4,8 @@ import MarkRead from "./MarkRead";
 export default function Header(props) {
   return (
     <div className="header">
-      <NotificationCount />
-      <MarkRead handleClick={props.handleClick} />
+      <NotificationCount unreadCount={props.unreadCount} />
+      <MarkRead markAllRead={props.markAllRead} />
     </div>
   );
 }
