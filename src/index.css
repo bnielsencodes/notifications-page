@@ -58,6 +58,7 @@ select {
 }
 
 button {
+  border: 0;
   background-color: transparent;
 }
 
@@ -84,6 +85,7 @@ button {
   align-items: center;
   width: 32px;
   height: 25px;
+  border-radius: 6px;
   margin-left: 10px;
   background-color: var(--blue-color);
   color: var(--white-color);
@@ -116,6 +118,7 @@ button {
   display: flex;
   align-items: flex-start;
   padding: 16px 26px 16px 16px;
+  border-radius: 8px;
   margin-bottom: 10px;
 }
 
