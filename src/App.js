@@ -11,6 +11,10 @@ export default function App() {
     display: read ? "none" : "inline-block",
     backgroundColor: read ? "transparent" : "#f65552",
   };
+  const unreadCount = notification.filter(
+    (notification) => notification.read === false
+  ).length;
+
 
   // map through data.js to create Notification components
   const notifications = notification.map((item) => {

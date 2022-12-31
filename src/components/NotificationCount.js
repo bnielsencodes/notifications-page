@@ -1,9 +1,9 @@
-export default function NotificationCount() {
+export default function NotificationCount(props) {
   return (
     <div className="notification-count">
       <h1>Notifications</h1>
       <div>
-        <span>3</span>
+        <span>{props.unreadCount}</span>
       </div>
     </div>
   );
