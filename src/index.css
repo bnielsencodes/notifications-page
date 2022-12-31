@@ -222,5 +222,27 @@ button {
     height: 45px;
   }
 
+  .mark-read button:hover,
+  .avatar:hover,
+  .name:hover,
+  .link:hover,
+  .message:hover,
+  .postImg:hover {
+    cursor: pointer;
+  }
+
+  .mark-read button:hover,
+  .name:hover,
+  .link:hover {
+    color: var(--blue-color);
+  }
+
+  .name:hover,
+  .link:hover {
+    font-weight: 800;
+  }
+
+  .message:hover {
+    background-color: var(--light-grey-blue-color);
   }
 }
