@@ -15,6 +15,13 @@ export default function App() {
     (notification) => notification.read === false
   ).length;
 
+  function markAllRead() {
+    setNotification((prevData) => {
+      return prevData.map((item) => {
+        return { ...item, read: true };
+      });
+    });
+  }
 
   // map through data.js to create Notification components
   const notifications = notification.map((item) => {
