@@ -1,10 +1,42 @@
-@import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;700;800&display=swap");
 
 body {
   margin: 0;
+body {
   font-family: "Plus Jakarta Sans", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 17.64px;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+input,
+textarea,
+button,
+select {
+  font: inherit;
+}
+
+.notification-count h1 {
+  font-size: 20px;
+  line-height: 25.2px;
+}
+
+.notification-count div {
+  font-size: 16px;
+  font-weight: 800;
+  line-height: 20.16px;
+}
+.notification-count h1,
+.name {
+  font-weight: 800;
+}
+
+.link {
+  font-weight: 700;
+}
+
 .badge {
   width: 8px;
   height: 8px;
