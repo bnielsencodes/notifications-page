@@ -161,6 +161,58 @@ button {
   margin-left: auto;
 }
 
+@media screen and (min-width: 768px) {
+  body {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20.16px;
+  }
+
+  #root {
+    padding-inline: 30px;
+    padding-bottom: 0;
+    border-radius: 16px;
+    margin: 63px auto 89px;
+  }
+
+  .header {
+    padding-left: 2px;
+  }
+
+  .notification-count {
+    margin: 33px 0 32px;
+  }
+
+  .notification-count h1 {
+    font-size: 24px;
+    line-height: 30.24px;
+  }
+
+  .notification-count div {
+    margin-left: 11px;
+  }
+
+  .notification-count h1,
+  .name,
+  .link {
+    font-weight: 800;
+  }
+
+  .notification {
+    padding: 18px 20px 17px 20px;
+    margin-bottom: 11px;
+  }
+
+  .avatar {
+    width: 45px;
+    height: 45px;
+    margin-right: 20px;
+  }
+
+  .action {
+    margin: 0 7px;
+  }
+
   .message {
     padding: 17px 18px 18px 19px;
   }
@@ -170,4 +222,5 @@ button {
     height: 45px;
   }
 
+  }
 }
