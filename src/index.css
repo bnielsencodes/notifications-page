@@ -12,4 +12,16 @@ body {
   margin-bottom: 1px;
 }
 
+.message {
+  padding: 16px;
+  border: 1px solid var(--very-light-grey-blue-color);
+  border-radius: 5px;
+  margin-top: 12px;
+  color: var(--dark-grey-blue-color);
+}
+
+  .message {
+    padding: 17px 18px 18px 19px;
+  }
+
 }

@@ -4,6 +4,11 @@ export default function Notification(props) {
     backgroundColor: props.item.read ? "transparent" : "#f65552",
     marginLeft: props.item.id !== 2 ? "6px" : "0px",
   };
+
+  const messageStyles = {
+    display: props.item.id !== 4 ? "none" : "block",
+  };
+
   return (
     <div className="notification">
       <img
@@ -21,7 +26,11 @@ export default function Notification(props) {
           <span className="badge" style={badgeStyles}></span>
         </div>
         <p className="time">{props.item.time}</p>
-        <div id={props.item.messageId} className="message">
+        <div
+          id={props.item.messageId}
+          className="message"
+          style={messageStyles}
+        >
           {props.item.message}
         </div>
       </div>
