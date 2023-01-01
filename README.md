@@ -29,11 +29,11 @@ Users should be able to:
 
 #### Desktop
 
-![screenshot of SecurePass desktop website](../src/assets/images/screenshots/notifications_page.png)
+![screenshot of SecurePass desktop website](./src/assets/images/screenshots/notifications_page.png)
 
 #### Mobile
 
-<img src="../src/assets/images/screenshots/notifications_page_mobile.png" alt="screenshot of SecurePass mobile website" width="300">
+<img src="./src/assets/images/screenshots/notifications_page_mobile.png" alt="screenshot of SecurePass mobile website" width="300">
 
 ### Links
 
