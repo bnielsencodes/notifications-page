@@ -59,7 +59,7 @@ This was a good test of my React skills. It especially furthered my learning in 
 
 With my next frontendmentor.io project, I plan to further my understanding of state in React. Also, will probably incorporate Tailwind into React.
 
-As for in general, I plan on learning Redux, Next.js, Styled Components, and Vite.
+As for in general, I plan on learning TypeScript, Redux, Next.js, Styled Components, and Vite.
 
 ## Author
 
