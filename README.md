@@ -39,7 +39,7 @@
 
 ## Author
 
-- Website - [Brandon Nielsen](https://www.bnielsen.dev)
-- LinkedIn - [Brandon Nielsen](https://www.linkedin.com/in/bnielsencodes)
+- Portfolio Website - [bnielsen.dev](https://bnielsen.dev)
+- LinkedIn - [/in/bnielsencodes](https://linkedin.com/in/bnielsencodes)
 - Twitter - [@bnielsencodes](https://twitter.com/bnielsencodes)
 - Frontend Mentor - [@bnielsencodes](https://www.frontendmentor.io/profile/bnielsencodes)
